@@ -10,7 +10,7 @@ function Header() {
   return (
     <header className="header" id="header">
       <div className="header__flare"></div>
-      <Link to="/" className="header__logo">
+      <Link to="/" aria-label="home" className="header__logo">
         <TopLogo />
       </Link>
       <div className="header__studying-title">

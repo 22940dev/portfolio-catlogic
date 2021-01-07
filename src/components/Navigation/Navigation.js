@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Navigation.css';
 
 function Navigation() {
@@ -5,20 +6,20 @@ function Navigation() {
     <ul className="navigation">
       <li className="navigation__button-container">
         <p className="navigation__button-title">Projects</p>
-        <button
-          type="button"
-          data-link="#projects"
+        <Link
+          to="#projects"
           aria-label="projects"
           className="navigation__button navigation__button_position_first"
-        ></button>
+        >
+          <span className="navigation__button-text">Projects</span>
+        </Link>
       </li>
       <li className="navigation__button-container">
         <p className="navigation__button-title">Blog (DEV.TO)</p>
         <a
           href="https://dev.to/cat__logic"
-          target="_blank"
           rel="noopener noreferrer"
-          data-link="#blog"
+          target="_blank"
           aria-label="blog"
           className="navigation__button"
         >
@@ -27,12 +28,13 @@ function Navigation() {
       </li>
       <li className="navigation__button-container">
         <p className="navigation__button-title">Contact</p>
-        <button
-          type="button"
-          data-link="#contact"
+        <Link
+          to="#contact"
           aria-label="contact"
           className="navigation__button navigation__button_position_last"
-        ></button>
+        >
+          <span className="navigation__button-text">Contact</span>
+        </Link>
       </li>
     </ul>
   );
