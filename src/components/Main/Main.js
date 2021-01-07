@@ -1,101 +1,12 @@
 import Lead from '../Lead/Lead';
+import Stack from '../Stack/Stack';
 import './Main.css';
 
 function Main() {
   return (
     <main className="main">
       <Lead />
-
-      <section className="stack">
-        <h2 className="stack__title section-title">My skills</h2>
-        <ul className="stack__list">
-          <li className="stack__element">
-            <i className="stack__icon fab fa-html5"></i>
-            <p className="stack__text">HTML5</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fab fa-css3-alt"></i>
-            <p className="stack__text">CSS3</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fab fa-js"></i>
-            <p className="stack__text">JavaScript ES6</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fab fa-react"></i>
-            <p className="stack__text">React</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fab fa-node-js"></i>
-            <p className="stack__text">Node.js / Express.js</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fas fa-database"></i>
-            <p className="stack__text">MongoDB</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fab fa-git-alt"></i>
-            <p className="stack__text">Git / GitHub</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon far fa-comments"></i>
-            <p className="stack__text">Rest API</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fas fa-cubes"></i>
-            <p className="stack__text">Object-oriented Programming</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fas fa-expand-arrows-alt"></i>
-            <p className="stack__text">Asynchronous Programming</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fas fa-th"></i>
-            <p className="stack__text">BEM</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fab fa-sass"></i>
-            <p className="stack__text">SASS / SCSS</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fas fa-box-open"></i>
-            <p className="stack__text">WebPack</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fas fa-terminal"></i>
-            <p className="stack__text">Command Line (Bash)</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fab fa-bootstrap"></i>
-            <p className="stack__text">Bootstrap</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fab fa-adobe"></i>
-            <p className="stack__text">Adobe Photoshop</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fab fa-figma"></i>
-            <p className="stack__text">Figma</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fas fa-search"></i>
-            <p className="stack__text">Pixel Perfect</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon fas fa-mobile-alt"></i>
-            <p className="stack__text">Responsive Layouts</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon far fa-file-code"></i>
-            <p className="stack__text">Semantic HTML</p>
-          </li>
-          <li className="stack__element">
-            <i className="stack__icon stack__icon_cat fas fa-cat"></i>
-            <p className="stack__text">Cat Handling</p>
-          </li>
-        </ul>
-      </section>
-
+      <Stack />
       <section id="projects" className="projects">
         <h2 className="projects__title section-title">My projects</h2>
         <ul className="projects__list">

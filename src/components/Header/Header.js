@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import MainButton from '../MainButton/MainButton';
 import TopLogo from '../TopLogo/TopLogo';
 import Navigation from '../Navigation/Navigation';
-import { LEARN_STRING, STACK } from '../constants/constants';
+import { LEARN_STRING, HEADER_STACK } from '../../constants/constants';
 import ux from '../../images/ux.svg';
 import './Header.css';
 
@@ -22,7 +22,7 @@ function Header() {
         <span className="header__string">{ LEARN_STRING }</span>
       </div>
       <ul className="header__stack">
-        {STACK.map((el, i) => (
+        {HEADER_STACK.map((el, i) => (
           <li className="header__stack-item" key={i}>{el}</li>
         ))}
       </ul>
