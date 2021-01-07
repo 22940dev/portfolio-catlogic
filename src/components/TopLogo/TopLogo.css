@@ -1,0 +1,29 @@
+.logo_catlogic-header {
+  width: 128px;
+  height: 34px;
+  z-index: 1;
+}
+
+.logo_front-end {
+  width: 258px;
+  height: 23px;
+  z-index: 1;
+}
+
+@media all and (max-width: 650px) {
+  .logo_front-end {
+    width: 235px;
+    height: auto;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .logo_catlogic-header {
+    width: 40%;
+    height: auto;
+  }
+
+  .logo_front-end {
+    width: 55%;
+  }
+}
