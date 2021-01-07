@@ -1,0 +1,31 @@
+.projects {
+  padding: 0 60px;
+}
+
+.projects__title {
+  text-align: right;
+  margin: 0 6px 32px 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.projects__list {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+}
+
+
+@media all and (max-width: 850px) {
+  .projects {
+    padding: 0 30px;
+  }
+
+  .projects__title {
+    font-size: 27px;
+  }
+}

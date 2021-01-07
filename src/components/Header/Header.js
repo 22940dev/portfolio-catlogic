@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { Link } from 'react-router-dom';
 import MainButton from '../MainButton/MainButton';
 import TopLogo from '../TopLogo/TopLogo';
@@ -31,4 +32,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default memo(Header);

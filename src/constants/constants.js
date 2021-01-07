@@ -53,4 +53,49 @@ const STACK = [
   { name: 'Cat Handling', icon: faCat },
 ];
 
-export { LEARN_STRING, HEADER_STACK, STACK };
+const PROJECTS = [
+  {
+    name: 'News Explorer',
+    stack: '(JavaScript, React, Node/Express, MongoDB)',
+    link: 'https://news.catlogic.ru/',
+    repo: 'https://github.com/cat-street/news-explorer',
+    img: 'news-explorer',
+  },
+  {
+    name: 'Yandex Mesto',
+    stack: '(JavaScript, React, Node/Express, MongoDB)',
+    link: 'https://mesto.catlogic.ru/',
+    repo: 'https://github.com/cat-street/react-mesto-api-full',
+    img: 'mesto',
+  },
+  {
+    name: 'CatLogic Calculator',
+    stack: '(JavaScript, React, HTML, CSS)',
+    link: 'http://cat-street.github.io/cl-002-calculator/',
+    repo: 'https://github.com/cat-street/cl-002-calculator',
+    img: 'calculator',
+  },
+  {
+    name: 'Random Quote Machine',
+    stack: '(HTML, SCSS, JavaScript, React, Redux)',
+    link: 'https://cat-street.github.io/random-quote-machine/',
+    repo: 'https://github.com/cat-street/random-quote-machine',
+    img: 'quotes',
+  },
+  {
+    name: 'Pomodoro Timer',
+    stack: '(JavaScript, React, HTML, CSS)',
+    link: 'https://cat-street.github.io/pomodoro-timer-react/',
+    repo: 'https://github.com/cat-street/pomodoro-timer-react',
+    img: 'pomodoro',
+  },
+  {
+    name: 'CatLogic Clock',
+    stack: '(HTML, CSS, JavaScript)',
+    link: 'https://cat-street.github.io/catlogic-clock/',
+    repo: 'https://github.com/cat-street/catlogic-clock',
+    img: 'clock',
+  },
+]
+
+export { LEARN_STRING, HEADER_STACK, STACK, PROJECTS };
