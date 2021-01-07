@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './Navigation.css';
 
 function Navigation() {
@@ -6,13 +6,14 @@ function Navigation() {
     <ul className="navigation">
       <li className="navigation__button-container">
         <p className="navigation__button-title">Projects</p>
-        <Link
+        <HashLink
+          smooth
           to="#projects"
           aria-label="projects"
           className="navigation__button navigation__button_position_first"
         >
           <span className="navigation__button-text">Projects</span>
-        </Link>
+        </HashLink>
       </li>
       <li className="navigation__button-container">
         <p className="navigation__button-title">Blog (DEV.TO)</p>
@@ -28,13 +29,14 @@ function Navigation() {
       </li>
       <li className="navigation__button-container">
         <p className="navigation__button-title">Contact</p>
-        <Link
+        <HashLink
+          smooth
           to="#contact"
           aria-label="contact"
           className="navigation__button navigation__button_position_last"
         >
           <span className="navigation__button-text">Contact</span>
-        </Link>
+        </HashLink>
       </li>
     </ul>
   );
