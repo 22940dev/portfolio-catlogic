@@ -8,6 +8,11 @@ import {
   faSass,
   faBootstrap,
   faFigma,
+  faTwitter,
+  faGithub,
+  faLinkedin,
+  faDev,
+  faTelegramPlane,
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faDatabase,
@@ -24,6 +29,7 @@ import {
   faComments,
   faImages,
   faFileCode,
+  faEnvelope,
 } from '@fortawesome/free-regular-svg-icons';
 
 const LEARN_STRING = 'MERN Stack';
@@ -51,6 +57,19 @@ const STACK = [
   { name: 'Responsive Layouts', icon: faMobileAlt },
   { name: 'Semantic HTML', icon: faFileCode },
   { name: 'Cat Handling', icon: faCat },
+];
+
+const SOCIAL = [
+  { name: 'catlogic@ya.ru', icon: faEnvelope, link: 'mailto:catlogic@ya.ru' },
+  { name: 'Twitter', icon: faTwitter, link: 'https://twitter.com/cat__logic' },
+  { name: 'GitHub', icon: faGithub, link: 'https://github.com/cat-street' },
+  {
+    name: 'LinkedIn',
+    icon: faLinkedin,
+    link: 'https://www.linkedin.com/in/cat-logic/',
+  },
+  { name: 'Dev.to', icon: faDev, link: 'https://dev.to/cat__logic' },
+  { name: 'Telegram', icon: faTelegramPlane, link: 'https://t.me/cat_logic' },
 ];
 
 const PROJECTS = [
@@ -96,6 +115,6 @@ const PROJECTS = [
     repo: 'https://github.com/cat-street/catlogic-clock',
     img: 'clock',
   },
-]
+];
 
-export { LEARN_STRING, HEADER_STACK, STACK, PROJECTS };
+export { LEARN_STRING, HEADER_STACK, STACK, PROJECTS, SOCIAL };

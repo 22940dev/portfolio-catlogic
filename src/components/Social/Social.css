@@ -1,0 +1,21 @@
+.social {
+  margin: -15px 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  grid-auto-rows: 1fr;
+  justify-items: center;
+}
+
+@media all and (max-width: 1024px) {
+  .social {
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  }
+}
+
+@media all and (max-width: 730px) {
+  .social {
+    display: flex;
+    justify-content: space-between;
+  }
+}

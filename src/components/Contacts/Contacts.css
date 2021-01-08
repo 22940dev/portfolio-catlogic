@@ -7,12 +7,6 @@
   font-weight: 400;
 }
 
-@media all and (max-width: 1024px) {
-  .contact {
-    padding: 0 20px 0 40px;
-  }
-}
-
 .contact__title {
   font-size: 36px;
   font-weight: 700;
@@ -21,13 +15,19 @@
   margin: 0 0 48px;
 }
 
+@media all and (max-width: 1024px) {
+  .contact {
+    padding: 0 20px 0 40px;
+  }
+}
+
 @media all and (max-width: 850px) {
   .contact__title {
     font-size: 27px;
   }
 }
 
-@media all and (max-width: 650px) {
+@media all and (max-width: 730px) {
   .contact {
     grid-template-columns: 1fr;
     padding: 0 30px;

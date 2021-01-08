@@ -1,0 +1,50 @@
+.social__element {
+  list-style: none;
+  text-align: center;
+  padding: 15px 0 20px;
+}
+
+.social__link {
+  text-decoration: none;
+  transition: color 300ms ease-out;
+  color: rgba(255, 255, 255, .7);
+}
+
+.social__link:hover {
+  color: #fff;
+}
+
+.social__link:focus {
+  outline: thin dotted rgba(255, 255, 255, .7);
+}
+
+.social__icon {
+  height: 90px;
+  font-size: 60px;
+}
+
+.social__text {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media all and (max-width: 730px) {
+  .social__text {
+    display: none;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .social__icon {
+    height: 70px;
+    font-size: 50px;
+  }
+}
+
+@media all and (max-width: 450px) {
+  .social__icon {
+    height: 60px;
+    font-size: 40px;
+  }
+}
