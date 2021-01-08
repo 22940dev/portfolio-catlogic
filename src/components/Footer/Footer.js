@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import catLogo from '../../images/catlogic-logo.svg';
 import './Footer.css';
 
@@ -17,4 +18,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default memo(Footer);

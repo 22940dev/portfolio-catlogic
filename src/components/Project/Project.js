@@ -1,6 +1,8 @@
 import './Project.css';
 
-function Project({ name, stack, link, repo, img }) {
+function Project({
+  name, stack, link, repo, img, imgHi,
+}) {
   return (
     <li className="projects__item">
       <div className="projects__header">
@@ -14,10 +16,7 @@ function Project({ name, stack, link, repo, img }) {
         rel="noopener noreferrer"
       >
         <img
-          srcSet={`${
-            require(`../../images/project_${img}.png`).default
-          } 400w,
-        ${require(`../../images/project_${img}_hi.png`).default} 800w`}
+          srcSet={`${img} 400w, ${imgHi} 800w`}
           sizes="400px"
           alt={`${name} project`}
           className="projects__image"

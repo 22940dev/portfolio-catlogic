@@ -32,6 +32,19 @@ import {
   faEnvelope,
 } from '@fortawesome/free-regular-svg-icons';
 
+import imageCalcHi from '../images/project_calculator_hi.png';
+import imageCalc from '../images/project_calculator.png';
+import imageClockHi from '../images/project_clock_hi.png';
+import imageClock from '../images/project_clock.png';
+import imageMestoHi from '../images/project_mesto_hi.png';
+import imageMesto from '../images/project_mesto.png';
+import imageNewsHi from '../images/project_news-explorer_hi.png';
+import imageNews from '../images/project_news-explorer.png';
+import imagePomodoroHi from '../images/project_pomodoro_hi.png';
+import imagePomodoro from '../images/project_pomodoro.png';
+import imageQuotesHi from '../images/project_quotes_hi.png';
+import imageQuotes from '../images/project_quotes.png';
+
 const LEARN_STRING = 'MERN Stack';
 const HEADER_STACK = ['CSS', 'JS', 'NODE', 'REACT', 'MONGO', 'EXPRESS', 'GIT'];
 
@@ -78,43 +91,51 @@ const PROJECTS = [
     stack: '(JavaScript, React, Node/Express, MongoDB)',
     link: 'https://news.catlogic.ru/',
     repo: 'https://github.com/cat-street/news-explorer',
-    img: 'news-explorer',
+    img: imageNews,
+    imgHi: imageNewsHi,
   },
   {
     name: 'Yandex Mesto',
     stack: '(JavaScript, React, Node/Express, MongoDB)',
     link: 'https://mesto.catlogic.ru/',
     repo: 'https://github.com/cat-street/react-mesto-api-full',
-    img: 'mesto',
+    img: imageMesto,
+    imgHi: imageMestoHi,
   },
   {
     name: 'CatLogic Calculator',
     stack: '(JavaScript, React, HTML, CSS)',
     link: 'http://cat-street.github.io/cl-002-calculator/',
     repo: 'https://github.com/cat-street/cl-002-calculator',
-    img: 'calculator',
+    img: imageCalc,
+    imgHi: imageCalcHi,
   },
   {
     name: 'Random Quote Machine',
     stack: '(HTML, SCSS, JavaScript, React, Redux)',
     link: 'https://cat-street.github.io/random-quote-machine/',
     repo: 'https://github.com/cat-street/random-quote-machine',
-    img: 'quotes',
+    img: imageQuotes,
+    imgHi: imageQuotesHi,
   },
   {
     name: 'Pomodoro Timer',
     stack: '(JavaScript, React, HTML, CSS)',
     link: 'https://cat-street.github.io/pomodoro-timer-react/',
     repo: 'https://github.com/cat-street/pomodoro-timer-react',
-    img: 'pomodoro',
+    img: imagePomodoro,
+    imgHi: imagePomodoroHi,
   },
   {
     name: 'CatLogic Clock',
     stack: '(HTML, CSS, JavaScript)',
     link: 'https://cat-street.github.io/catlogic-clock/',
     repo: 'https://github.com/cat-street/catlogic-clock',
-    img: 'clock',
+    img: imageClock,
+    imgHi: imageClockHi,
   },
 ];
 
-export { LEARN_STRING, HEADER_STACK, STACK, PROJECTS, SOCIAL };
+export {
+  LEARN_STRING, HEADER_STACK, STACK, PROJECTS, SOCIAL,
+};

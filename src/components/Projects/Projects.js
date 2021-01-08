@@ -7,7 +7,7 @@ function Projects() {
     <section id="projects" className="projects">
       <h2 className="projects__title">My projects</h2>
       <ul className="projects__list">
-        {PROJECTS.map((el, i) => (
+        {PROJECTS.map((el) => (
           <Project {...el} key={el.name} />
         ))}
       </ul>

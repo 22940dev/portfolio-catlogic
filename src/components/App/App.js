@@ -1,7 +1,8 @@
 import 'normalize.css';
-import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import Main from '../Main/Main';
+import Footer from '../Footer/Footer';
+import BackToTop from '../BackToTop/BackToTop';
 import './App.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Main />
       <Footer />
+      <BackToTop />
     </div>
   );
 }

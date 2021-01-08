@@ -16,7 +16,7 @@ function ContactForm() {
   const handleChange = (evt) => {
     const { target } = evt;
     const { name, value } = target;
-    setValues((values) => ({ ...values, [name]: value }));
+    setValues((prevValues) => ({ ...prevValues, [name]: value }));
   };
 
   const handleSubmit = async (evt) => {
@@ -26,12 +26,15 @@ function ContactForm() {
       setDisabled(true);
       await api.sendMessage(values);
       setButtonText('Thank you!');
-      setValues((values) => ({ ...values, name: '', email: '', message: '' }));
+      setValues((prevValues) => ({
+        ...prevValues, name: '', email: '', message: '',
+      }));
       setTimeout(() => {
         setButtonText('Submit');
       }, 5000);
     } catch (err) {
       setErrMessage('Message not sent!');
+      // eslint-disable-next-line no-console
       console.error(err);
     } finally {
       setDisabled(false);

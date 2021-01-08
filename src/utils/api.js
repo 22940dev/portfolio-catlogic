@@ -1,10 +1,10 @@
 class Api {
   constructor() {
-    this._baseUrl = 'https://app.99inbound.com/api/e/jBezP2-G';
+    this.baseUrl = 'https://app.99inbound.com/api/e/jBezP2-G';
   }
 
   async sendMessage(message) {
-    const res = await fetch(this._baseUrl, {
+    const res = await fetch(this.baseUrl, {
       method: 'post',
       headers: {
         'Content-Type': 'application/json',
