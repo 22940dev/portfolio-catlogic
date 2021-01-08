@@ -1,5 +1,7 @@
 .projects {
   padding: 0 60px;
+  font-family: 'Cabin', Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 .projects__title {

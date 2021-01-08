@@ -1,9 +1,5 @@
 @import url('./vendor/fonts.css');
 
-/* .html {
-  scroll-behavior: smooth;
-} */
-
 .body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -17,6 +13,4 @@
 
   background-color: var(--main-black, black);
   color: #ffffff;
-  font-weight: 400;
-  font-family: 'Cabin', Arial, Helvetica, sans-serif;
 }

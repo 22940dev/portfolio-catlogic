@@ -1,5 +1,7 @@
 .stack {
   padding: 0 120px;
+  font-family: 'Cabin', Arial, Helvetica, sans-serif;
+  font-weight: 400;
 }
 
 .stack__title {

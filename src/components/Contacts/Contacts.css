@@ -1,0 +1,40 @@
+.contact {
+  display: grid;
+  padding: 0 120px;
+  gap: 48px;
+  grid-template-columns: 2fr 1fr;
+  font-family: 'Cabin', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+@media all and (max-width: 1024px) {
+  .contact {
+    padding: 0 20px 0 40px;
+  }
+}
+
+.contact__title {
+  font-size: 36px;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin: 0 0 48px;
+}
+
+@media all and (max-width: 850px) {
+  .contact__title {
+    font-size: 27px;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .contact {
+    grid-template-columns: 1fr;
+    padding: 0 30px;
+    gap: 80px;
+  }
+
+  .contact__title {
+    margin: 0 0 24px;
+  }
+}
