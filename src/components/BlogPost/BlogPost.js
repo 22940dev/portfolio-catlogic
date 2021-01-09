@@ -8,6 +8,11 @@ function BlogPost({
   title,
   url,
 }) {
+  const formatDate = () => {
+    const date = new Date(publishedAt);
+    return date.toLocaleDateString();
+  };
+
   return (
     <li className="blog__item">
       <a
@@ -22,7 +27,7 @@ function BlogPost({
           className="blog__image"
         />
       </a>
-      <time className="blog__date" dateTime={publishedAt}>{publishedAt}</time>
+      <time className="blog__date" dateTime={publishedAt}>{formatDate()}</time>
       <h2 className="blog__title">{title}</h2>
       <p className="blog__text">{description}</p>
       <a
