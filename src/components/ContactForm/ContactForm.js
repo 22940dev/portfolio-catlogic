@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import api from '../../utils/api';
+import contactApi from '../../utils/contactApi';
 import './ContactForm.css';
 
 function ContactForm() {
@@ -24,7 +24,7 @@ function ContactForm() {
     setErrMessage('');
     try {
       setDisabled(true);
-      await api.sendMessage(values);
+      await contactApi.sendMessage(values);
       setButtonText('Thank you!');
       setValues((prevValues) => ({
         ...prevValues, name: '', email: '', message: '',

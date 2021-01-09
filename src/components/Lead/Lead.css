@@ -53,6 +53,17 @@
   margin: 48px 0 0;
 }
 
+.lead__link {
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px dotted rgba(255, 255, 255, .5);
+  transition: color 200ms ease-out;
+}
+
+.lead__link:hover {
+  color: rgba(255, 255, 255, .7);
+}
+
 @media all and (max-width: 1024px) {
   .lead__description {
     margin-top: 50px;
@@ -91,17 +102,6 @@
     left: 30px;
     opacity: .1;
   }
-}
-
-.lead__link {
-  color: #fff;
-  text-decoration: none;
-  border-bottom: 1px dotted rgba(255, 255, 255, .5);
-  transition: color 200ms ease-out;
-}
-
-.lead__link:hover {
-  color: rgba(255, 255, 255, .7);
 }
 
 @media all and (max-width: 450px) {

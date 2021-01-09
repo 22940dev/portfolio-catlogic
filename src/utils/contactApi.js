@@ -1,4 +1,4 @@
-class Api {
+class ContactApi {
   constructor() {
     this.baseUrl = 'https://app.99inbound.com/api/e/jBezP2-G';
   }
@@ -21,6 +21,6 @@ class Api {
   }
 }
 
-const api = new Api();
+const contactApi = new ContactApi();
 
-export default api;
+export default contactApi;

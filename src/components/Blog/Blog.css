@@ -1,0 +1,10 @@
+.blog__list {
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  list-style: none;
+  font-family: 'Cabin', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
