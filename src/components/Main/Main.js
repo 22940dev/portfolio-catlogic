@@ -10,15 +10,21 @@ function Main({ sendMessage, getBlog }) {
   return (
     <main className="main">
       <Switch>
+        <Route exact path="/projects">
+          <Projects />
+        </Route>
+
         <Route exact path="/blog">
           <Blog getBlog={getBlog} />
+        </Route>
+
+        <Route exact path="/contact">
+          <Contacts sendMessage={sendMessage} />
         </Route>
 
         <Route path="/">
           <Lead />
           <Stack />
-          <Projects />
-          <Contacts sendMessage={sendMessage} />
         </Route>
       </Switch>
     </main>

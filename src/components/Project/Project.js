@@ -1,3 +1,4 @@
+import 'lazysizes';
 import './Project.css';
 
 function Project({
@@ -19,7 +20,7 @@ function Project({
           srcSet={`${img} 400w, ${imgHi} 800w`}
           sizes="400px"
           alt={`${name} project`}
-          className="projects__image"
+          className="projects__image lazyload"
         />
       </a>
       <div className="projects__links">

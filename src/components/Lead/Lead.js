@@ -1,4 +1,4 @@
-import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import bigCat from '../../images/big-cat.svg';
 import './Lead.css';
 
@@ -33,13 +33,13 @@ function Lead() {
         </p>
         <p className="lead__subtext">
           Check out{' '}
-          <HashLink smooth to="#projects" className="lead__link">
+          <Link to="/projects" className="lead__link">
             my projects
-          </HashLink>
+          </Link>
           {' '}or&nbsp;
-          <HashLink smooth to="#contact" className="lead__link">
+          <Link to="/contact" className="lead__link">
             contact&nbsp;me
-          </HashLink>
+          </Link>
           !
         </p>
       </div>
