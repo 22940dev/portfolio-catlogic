@@ -1,5 +1,4 @@
 .projects {
-  padding: 0 60px;
   font-family: 'Cabin', Arial, Helvetica, sans-serif;
   font-weight: 400;
 }
@@ -23,10 +22,6 @@
 
 
 @media all and (max-width: 850px) {
-  .projects {
-    padding: 0 30px;
-  }
-
   .projects__title {
     font-size: 27px;
   }

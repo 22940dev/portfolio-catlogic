@@ -29,13 +29,15 @@
   font-weight: 500;
 }
 
-@media all and (max-width: 730px) {
+@media all and (max-width: 650px) {
+  .social__element {
+    padding-bottom: 0;
+  }
+
   .social__text {
     display: none;
   }
-}
 
-@media all and (max-width: 650px) {
   .social__icon {
     height: 70px;
     font-size: 50px;
