@@ -1,10 +1,10 @@
 import contactApi from '../../utils/contactApi';
 import blogApi from '../../utils/blogApi';
-import 'normalize.css';
 import Header from '../Header/Header';
 import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
 import BackToTop from '../BackToTop/BackToTop';
+import 'normalize.css';
 import './App.css';
 
 function App() {
