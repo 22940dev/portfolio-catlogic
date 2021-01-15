@@ -8,35 +8,42 @@ function Lead() {
       <img src={bigCat} alt="Big cat outline" className="lead__cat" />
       <div className="lead__description">
         <h1 className="lead__greeting">
-          <strong>Andrey&nbsp;Kudryavtsev</strong>
+          <strong>Hi, I'm Andrey</strong>
         </h1>
         <span className="lead__hr"></span>
         <p className="lead__text">
-          <strong>A JavaScript developer</strong> from Moscow,&nbsp;Russia.
+          Photographer, system&nbsp;administrator, technical&nbsp;editor, but,
+          most importantly - <strong>a&nbsp;JavaScript&nbsp;developer</strong>{' '}
+          based in Moscow,&nbsp;Russia.
         </p>
         <p className="lead__text">
-          A photojournalist by education (no STEM background), ex-system
-          administrator, I started my journey to a web developer career in
-          spring of 2020 by actively self-studying, applying to and finishing{' '}
-          <em>Yandex Practicum</em> program, and consistently continuing to
-          learn.
+          I can't fix your printer, but I'm the one you need for healing your
+          website or app sick with dirty or unoptimized code. Be it a frontend
+          or a backend, I can find solutions for all the previous bad decisions;
+          moreover, we can start from scratch to build a beautiful and
+          innovative system design.
         </p>
         <p className="lead__text">
-          I'm proficient in <strong>MERN stack</strong> and{' '}
-          <strong>vanilla JavaScript</strong>, working with frontend and
-          backend, writing clean code and following principles. Also have
-          interest in UX/UI and web design.
+          My trade is a modern <strong>JavaScript</strong>, in vanilla/framework
+          form, I love doing magic with <strong>React</strong> components.
         </p>
         <p className="lead__text">
-          Looking for a starting-to-middle position as a React/JavaScript
-          developer (no banks or government organizations).
+          I have no STEM background, but I'm really passionate about coding,
+          learning, and getting the best results. I'm also a team person, I like
+          helping teammates and gaining new knowledge from a group mind.
+        </p>
+        <p className="lead__text">
+          I also love <strong>cats</strong>, and there's no helping it.
+        </p>
+        <p className="lead__text">
+          I'm <strong>currently available</strong> for a starting-to-middle position!
         </p>
         <p className="lead__subtext">
           Check out{' '}
           <Link to="/projects" className="lead__link">
             my projects
-          </Link>
-          {' '}or&nbsp;
+          </Link>{' '}
+          or&nbsp;
           <Link to="/contact" className="lead__link">
             contact&nbsp;me
           </Link>
