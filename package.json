@@ -24,8 +24,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "scp -r ./build/* root@185.185.71.119:/root/catlogic",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "fix": "node_modules\\.bin\\eslint ./src/**/*.js --fix"
