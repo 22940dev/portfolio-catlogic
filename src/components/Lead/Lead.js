@@ -18,10 +18,9 @@ function Lead() {
         </p>
         <p className="lead__text">
           I can't fix your printer, but I'm the one you need for healing your
-          website or app sick with dirty or unoptimized code. Be it a frontend
-          or a backend, I can find solutions for all the previous bad decisions;
-          moreover, we can start from scratch to build a beautiful and
-          innovative system design.
+          website or app sick with dirty or unoptimized code. I can find
+          solutions for all the previous bad decisions; moreover, we can start
+          from scratch to build a beautiful and innovative system design.
         </p>
         <p className="lead__text">
           My trade is a modern <strong>JavaScript</strong>, in vanilla/framework
@@ -36,7 +35,8 @@ function Lead() {
           I also love <strong>cats</strong>, and there's no helping it.
         </p>
         <p className="lead__text">
-          I'm <strong>currently available</strong> for a starting-to-middle position!
+          I'm <strong>currently available</strong> for a starting-to-middle
+          position!
         </p>
         <p className="lead__subtext">
           Check out{' '}
