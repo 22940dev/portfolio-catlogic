@@ -18,7 +18,7 @@ function Lead() {
           Moscow,&nbsp;Russia.
         </p>
         <p className="lead__text">
-          I can not fix your printer, but I can analyze problems, find solutions,
+          I cannot fix your printer, but I can analyze problems, find solutions,
           gentrify and optimize the code, turn your ideas into concepts, and
           turn concepts into working websites and applications.
         </p>
