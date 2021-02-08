@@ -51,7 +51,7 @@ const HEADER_STACK = ['CSS', 'JS', 'NODE', 'REACT', 'MONGO', 'EXPRESS', 'GIT'];
 const STACK = [
   { name: 'HTML5', icon: faHtml5 },
   { name: 'CSS3', icon: faCss3Alt },
-  { name: 'JavaScript ES6', icon: faJs },
+  { name: 'JavaScript/TypeScript', icon: faJs },
   { name: 'React / Redux', icon: faReact },
   { name: 'Node.js / Express.js', icon: faNodeJs },
   { name: 'MongoDB', icon: faDatabase },
