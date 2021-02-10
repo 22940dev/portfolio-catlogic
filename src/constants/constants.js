@@ -44,6 +44,8 @@ import imagePomodoroHi from '../images/project_pomodoro_hi.png';
 import imagePomodoro from '../images/project_pomodoro.png';
 import imageQuotesHi from '../images/project_quotes_hi.png';
 import imageQuotes from '../images/project_quotes.png';
+import imageKanbanHi from '../images/project_kanban_hi.png';
+import imageKanban from '../images/project_kanban.png';
 
 const LEARN_STRING = 'TypeScript/Redux';
 const HEADER_STACK = ['CSS', 'JS', 'NODE', 'REACT', 'MONGO', 'EXPRESS', 'GIT'];
@@ -93,6 +95,14 @@ const PROJECTS = [
     repo: 'https://github.com/cat-street/news-explorer',
     img: imageNews,
     imgHi: imageNewsHi,
+  },
+  {
+    name: 'Sample Kanban board',
+    stack: '(TypeScript, React, Bootstrap)',
+    link: 'https://anyway.catlogic.ru/',
+    repo: 'https://github.com/cat-street/anyway-kanban',
+    img: imageKanban,
+    imgHi: imageKanbanHi,
   },
   {
     name: 'Yandex Mesto',
