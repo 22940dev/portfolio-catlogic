@@ -99,7 +99,7 @@ const PROJECTS = [
   {
     name: 'Sample Kanban board',
     stack: '(TypeScript, React, Bootstrap)',
-    link: 'https://anyway.catlogic.ru/',
+    link: 'https://cat-street.github.io/anyway-kanban/',
     repo: 'https://github.com/cat-street/anyway-kanban',
     img: imageKanban,
     imgHi: imageKanbanHi,
