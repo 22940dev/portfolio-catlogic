@@ -1,6 +1,6 @@
 class BlogApi {
   constructor() {
-    this.baseUrl = 'https://dev.to/api/articles';
+    this.baseUrl = 'https://dev.to/api/articles?username=cat__logic';
   }
 
   async getData() {
