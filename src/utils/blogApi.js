@@ -1,15 +1,10 @@
 class BlogApi {
   constructor() {
-    this.baseUrl = 'https://dev.to/api/articles?username=cat__logic';
+    this.baseUrl = 'https://dev.to/api/articles';
   }
 
   async getData() {
-    const res = await fetch(this.baseUrl, {
-      headers: {
-        'Content-Type': 'application/json',
-        Accept: 'application/json',
-      },
-    });
+    const res = await fetch(this.baseUrl);
     if (res.ok) {
       return res.json();
     }
