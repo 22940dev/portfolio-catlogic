@@ -1,13 +1,12 @@
-import { Suspense, lazy } from 'react';
+import { Suspense } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Contacts from '../Contacts/Contacts';
 import Lead from '../Lead/Lead';
 import Stack from '../Stack/Stack';
+import Projects from '../Projects/Projects';
 import Blog from '../Blog/Blog';
 import './Main.css';
 import Spinner from '../Spinner/Spinner';
-
-const Projects = lazy(() => import('../Projects/Projects'));
 
 function Main({ sendMessage, getBlog }) {
   return (

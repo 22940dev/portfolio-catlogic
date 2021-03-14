@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect } from 'react';
 import BlogPost from '../BlogPost/BlogPost';
 import Spinner from '../Spinner/Spinner';
 import './Blog.css';
@@ -7,24 +7,22 @@ function Blog({ getBlog }) {
   const [posts, setPosts] = useState([]);
   const [showSpinner, setSpinner] = useState(false);
 
-  const getPosts = useCallback(async () => {
-    setSpinner(true);
-    try {
-      const data = await getBlog();
-      if (data) {
-        setPosts(data);
-      }
-    } catch (err) {
-      // eslint-disable-next-line no-console
-      console.error(err);
-    } finally {
-      setSpinner(false);
-    }
-  }, [getBlog]);
-
   useEffect(() => {
-    getPosts();
-  }, [getPosts]);
+    (async () => {
+      setSpinner(true);
+      try {
+        const data = await getBlog();
+        if (data) {
+          setPosts(data);
+        }
+      } catch (err) {
+        // eslint-disable-next-line no-console
+        console.error(err);
+      } finally {
+        setSpinner(false);
+      }
+    })();
+  }, [getBlog]);
 
   return (
     <>
