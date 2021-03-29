@@ -46,6 +46,8 @@ import imageQuotesHi from '../images/project_quotes_hi.png';
 import imageQuotes from '../images/project_quotes.png';
 import imageKanbanHi from '../images/project_kanban_hi.png';
 import imageKanban from '../images/project_kanban.png';
+import imageBookshelfHi from '../images/project_bookshelf_hi.png';
+import imageBookshelf from '../images/project_bookshelf.png';
 
 const LEARN_STRING = 'TypeScript/Redux';
 const HEADER_STACK = ['CSS', 'JS', 'NODE', 'REACT', 'MONGO', 'EXPRESS', 'GIT'];
@@ -88,6 +90,14 @@ const SOCIAL = [
 ];
 
 const PROJECTS = [
+  {
+    name: 'React Bookshelf',
+    stack: '(TypeScript, React, Redux, Bootstrap)',
+    link: 'https://zen-austin-25d292.netlify.app/',
+    repo: 'https://github.com/cat-street/react-bookshelf',
+    img: imageBookshelf,
+    imgHi: imageBookshelfHi,
+  },
   {
     name: 'News Explorer',
     stack: '(JavaScript, React, Node/Express, MongoDB)',
