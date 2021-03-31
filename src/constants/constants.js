@@ -83,9 +83,9 @@ const SOCIAL = [
   {
     name: 'LinkedIn',
     icon: faLinkedin,
-    link: 'https://www.linkedin.com/in/cat-logic/',
+    link: 'https://www.linkedin.com/in/catlogic/',
   },
-  { name: 'Dev.to', icon: faDev, link: 'https://dev.to/cat__logic' },
+  { name: 'Dev.to', icon: faDev, link: 'https://dev.to/catlogic' },
   { name: 'Telegram', icon: faTelegramPlane, link: 'https://t.me/cat_logic' },
 ];
 
