@@ -52,7 +52,7 @@ import imageAsteroidsHi from '../images/project_asteroids_hi.png';
 import imageAsteroids from '../images/project_asteroids.png';
 
 const LEARN_STRING = 'TypeScript/Redux';
-const HEADER_STACK = ['CSS', 'TS', 'NEXT', 'REACT', 'REDUX', 'MONGO', 'GIT'];
+const HEADER_STACK = ['CSS', 'TS', 'NEXT', 'REACT', 'NODE', 'GIT', 'REDUX'];
 
 const STACK = [
   { name: 'HTML5', icon: faHtml5 },
