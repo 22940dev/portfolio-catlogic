@@ -16,7 +16,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import {
   faDatabase,
-  faCubes,
+  faStepForward,
   faTh,
   faBoxOpen,
   faTerminal,
@@ -48,6 +48,8 @@ import imageKanbanHi from '../images/project_kanban_hi.png';
 import imageKanban from '../images/project_kanban.png';
 import imageBookshelfHi from '../images/project_bookshelf_hi.png';
 import imageBookshelf from '../images/project_bookshelf.png';
+import imageAsteroidsHi from '../images/project_asteroids_hi.png';
+import imageAsteroids from '../images/project_asteroids.png';
 
 const LEARN_STRING = 'TypeScript/Redux';
 const HEADER_STACK = ['CSS', 'JS', 'NODE', 'REACT', 'MONGO', 'EXPRESS', 'GIT'];
@@ -56,12 +58,12 @@ const STACK = [
   { name: 'HTML5', icon: faHtml5 },
   { name: 'CSS3', icon: faCss3Alt },
   { name: 'JavaScript / TypeScript', icon: faJs },
-  { name: 'React / Redux', icon: faReact },
+  { name: 'React / Redux / Saga', icon: faReact },
+  { name: 'Next.js', icon: faStepForward },
   { name: 'Node.js / Express.js', icon: faNodeJs },
   { name: 'MongoDB', icon: faDatabase },
   { name: 'Git / GitHub', icon: faGitAlt },
   { name: 'RESTful API', icon: faComments },
-  { name: 'Object-oriented Programming', icon: faCubes },
   { name: 'BEM', icon: faTh },
   { name: 'SASS / SCSS ', icon: faSass },
   { name: 'Jest', icon: faVial },
@@ -97,6 +99,14 @@ const PROJECTS = [
     repo: 'https://github.com/cat-street/react-bookshelf',
     img: imageBookshelf,
     imgHi: imageBookshelfHi,
+  },
+  {
+    name: 'Armageddon V',
+    stack: '(TypeScript, React, Next.js)',
+    link: 'https://asteroids-nasa.vercel.app/',
+    repo: 'https://github.com/cat-street/asteroids-nasa',
+    img: imageAsteroids,
+    imgHi: imageAsteroidsHi,
   },
   {
     name: 'News Explorer',
