@@ -42,14 +42,14 @@ import imageNewsHi from '../images/project_news-explorer_hi.png';
 import imageNews from '../images/project_news-explorer.png';
 import imagePomodoroHi from '../images/project_pomodoro_hi.png';
 import imagePomodoro from '../images/project_pomodoro.png';
-import imageQuotesHi from '../images/project_quotes_hi.png';
-import imageQuotes from '../images/project_quotes.png';
 import imageKanbanHi from '../images/project_kanban_hi.png';
 import imageKanban from '../images/project_kanban.png';
 import imageBookshelfHi from '../images/project_bookshelf_hi.png';
 import imageBookshelf from '../images/project_bookshelf.png';
 import imageAsteroidsHi from '../images/project_asteroids_hi.png';
 import imageAsteroids from '../images/project_asteroids.png';
+import imageOrderHi from '../images/project_orderform_hi.png';
+import imageOrder from '../images/project_orderform.png';
 
 const LEARN_STRING = 'TypeScript/Redux';
 const HEADER_STACK = ['CSS', 'TS', 'NEXT', 'REACT', 'NODE', 'GIT', 'REDUX'];
@@ -93,6 +93,14 @@ const SOCIAL = [
 
 const PROJECTS = [
   {
+    name: 'React Order Form',
+    stack: '(TypeScript, React, Formik, SCSS)',
+    link: 'https://cat-street.github.io/flatstack-orderform/',
+    repo: 'https://github.com/cat-street/flatstack-orderform',
+    img: imageOrder,
+    imgHi: imageOrderHi,
+  },
+  {
     name: 'React Bookshelf',
     stack: '(TypeScript, React, Redux, Bootstrap)',
     link: 'https://zen-austin-25d292.netlify.app/',
@@ -126,7 +134,7 @@ const PROJECTS = [
   },
   {
     name: 'Yandex Mesto',
-    stack: '(JavaScript, React, Node/Express, MongoDB)',
+    stack: '(React, Node/Express, MongoDB)',
     link: 'https://mesto.catlogic.ru/',
     repo: 'https://github.com/cat-street/react-mesto-api-full',
     img: imageMesto,
@@ -134,23 +142,15 @@ const PROJECTS = [
   },
   {
     name: 'CatLogic Calculator',
-    stack: '(JavaScript, React, HTML, CSS)',
+    stack: '(React, pure CSS design)',
     link: 'http://cat-street.github.io/cl-002-calculator/',
     repo: 'https://github.com/cat-street/cl-002-calculator',
     img: imageCalc,
     imgHi: imageCalcHi,
   },
   {
-    name: 'Random Quote Machine',
-    stack: '(HTML, SCSS, JavaScript, React, Redux)',
-    link: 'https://cat-street.github.io/random-quote-machine/',
-    repo: 'https://github.com/cat-street/random-quote-machine',
-    img: imageQuotes,
-    imgHi: imageQuotesHi,
-  },
-  {
     name: 'Pomodoro Timer',
-    stack: '(JavaScript, React, HTML, CSS)',
+    stack: '(React)',
     link: 'https://cat-street.github.io/pomodoro-timer-react/',
     repo: 'https://github.com/cat-street/pomodoro-timer-react',
     img: imagePomodoro,
@@ -158,7 +158,7 @@ const PROJECTS = [
   },
   {
     name: 'CatLogic Clock',
-    stack: '(HTML, CSS, JavaScript)',
+    stack: '(JavaScript, pure CSS design)',
     link: 'https://cat-street.github.io/catlogic-clock/',
     repo: 'https://github.com/cat-street/catlogic-clock',
     img: imageClock,
