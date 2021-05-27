@@ -40,8 +40,6 @@ import imageMestoHi from '../images/project_mesto_hi.png';
 import imageMesto from '../images/project_mesto.png';
 import imageNewsHi from '../images/project_news-explorer_hi.png';
 import imageNews from '../images/project_news-explorer.png';
-import imagePomodoroHi from '../images/project_pomodoro_hi.png';
-import imagePomodoro from '../images/project_pomodoro.png';
 import imageKanbanHi from '../images/project_kanban_hi.png';
 import imageKanban from '../images/project_kanban.png';
 import imageBookshelfHi from '../images/project_bookshelf_hi.png';
@@ -50,6 +48,8 @@ import imageAsteroidsHi from '../images/project_asteroids_hi.png';
 import imageAsteroids from '../images/project_asteroids.png';
 import imageOrderHi from '../images/project_orderform_hi.png';
 import imageOrder from '../images/project_orderform.png';
+import imageMemoryHi from '../images/project_memory_hi.png';
+import imageMemory from '../images/project_memory.png';
 
 const LEARN_STRING = 'TypeScript/Redux';
 const HEADER_STACK = ['CSS', 'TS', 'NEXT', 'REACT', 'NODE', 'GIT', 'REDUX'];
@@ -117,6 +117,14 @@ const PROJECTS = [
     imgHi: imageAsteroidsHi,
   },
   {
+    name: 'Memory Game',
+    stack: '(React, TypeScript)',
+    link: 'https://cat-street.github.io/creative-memory-game/',
+    repo: 'https://github.com/cat-street/creative-memory-game',
+    img: imageMemory,
+    imgHi: imageMemoryHi,
+  },
+  {
     name: 'News Explorer',
     stack: '(JavaScript, React, Node/Express, MongoDB)',
     link: 'https://news.catlogic.ru/',
@@ -147,14 +155,6 @@ const PROJECTS = [
     repo: 'https://github.com/cat-street/cl-002-calculator',
     img: imageCalc,
     imgHi: imageCalcHi,
-  },
-  {
-    name: 'Pomodoro Timer',
-    stack: '(React)',
-    link: 'https://cat-street.github.io/pomodoro-timer-react/',
-    repo: 'https://github.com/cat-street/pomodoro-timer-react',
-    img: imagePomodoro,
-    imgHi: imagePomodoroHi,
   },
   {
     name: 'CatLogic Clock',
