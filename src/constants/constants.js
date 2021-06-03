@@ -36,8 +36,6 @@ import imageCalcHi from '../images/project_calculator_hi.png';
 import imageCalc from '../images/project_calculator.png';
 import imageClockHi from '../images/project_clock_hi.png';
 import imageClock from '../images/project_clock.png';
-import imageMestoHi from '../images/project_mesto_hi.png';
-import imageMesto from '../images/project_mesto.png';
 import imageNewsHi from '../images/project_news-explorer_hi.png';
 import imageNews from '../images/project_news-explorer.png';
 import imageKanbanHi from '../images/project_kanban_hi.png';
@@ -50,6 +48,8 @@ import imageOrderHi from '../images/project_orderform_hi.png';
 import imageOrder from '../images/project_orderform.png';
 import imageMemoryHi from '../images/project_memory_hi.png';
 import imageMemory from '../images/project_memory.png';
+import imageApartmentsHi from '../images/project_apartments_hi.png';
+import imageApartments from '../images/project_apartments.png';
 
 const LEARN_STRING = 'TypeScript/Redux';
 const HEADER_STACK = ['CSS', 'TS', 'NEXT', 'REACT', 'NODE', 'GIT', 'REDUX'];
@@ -117,6 +117,14 @@ const PROJECTS = [
     imgHi: imageAsteroidsHi,
   },
   {
+    name: 'Smooth Apartments',
+    stack: '(React, Redux, SCSS)',
+    link: 'https://cat-street.github.io/creative-apartments/',
+    repo: 'https://github.com/cat-street/creative-apartments',
+    img: imageApartments,
+    imgHi: imageApartmentsHi,
+  },
+  {
     name: 'Memory Game',
     stack: '(React, TypeScript)',
     link: 'https://cat-street.github.io/creative-memory-game/',
@@ -139,14 +147,6 @@ const PROJECTS = [
     repo: 'https://github.com/cat-street/anyway-kanban',
     img: imageKanban,
     imgHi: imageKanbanHi,
-  },
-  {
-    name: 'Yandex Mesto',
-    stack: '(React, Node/Express, MongoDB)',
-    link: 'https://mesto.catlogic.ru/',
-    repo: 'https://github.com/cat-street/react-mesto-api-full',
-    img: imageMesto,
-    imgHi: imageMestoHi,
   },
   {
     name: 'CatLogic Calculator',
