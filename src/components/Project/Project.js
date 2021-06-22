@@ -24,14 +24,16 @@ function Project({
         />
       </a>
       <div className="projects__links">
-        <a
+        {repo && (
+          <a
           href={repo}
           className="projects__link"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Repo
-        </a>
+          >
+            Repo
+          </a>
+        )}
         <a
           href={link}
           className="projects__link"

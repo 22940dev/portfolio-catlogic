@@ -46,10 +46,10 @@ import imageOrderHi from '../images/project_orderform_hi.png';
 import imageOrder from '../images/project_orderform.png';
 import imageMemoryHi from '../images/project_memory_hi.png';
 import imageMemory from '../images/project_memory.png';
-import imageApartmentsHi from '../images/project_apartments_hi.png';
-import imageApartments from '../images/project_apartments.png';
 import imageMortyHi from '../images/project_rickmorty_hi.png';
 import imageMorty from '../images/project_rickmorty.png';
+import imageRCHi from '../images/project_rc_hi.png';
+import imageRC from '../images/project_rc.png';
 
 const LEARN_STRING = 'TypeScript/Redux';
 const HEADER_STACK = ['REACT', 'SCSS', 'TS', 'GIT', 'NEXT', 'REDUX', 'NODE'];
@@ -93,6 +93,14 @@ const SOCIAL = [
 
 const PROJECTS = [
   {
+    name: 'Restoration Company Website',
+    stack: '(React, TypeScript, Next.js)',
+    link: 'https://restavrator.org',
+    repo: '',
+    img: imageRC,
+    imgHi: imageRCHi,
+  },
+  {
     name: 'React Bookshelf',
     stack: '(React, TypeScript, Redux, Bootstrap)',
     link: 'https://zen-austin-25d292.netlify.app/',
@@ -115,14 +123,6 @@ const PROJECTS = [
     repo: 'https://github.com/cat-street/rick-and-morty',
     img: imageMorty,
     imgHi: imageMortyHi,
-  },
-  {
-    name: 'Smooth Apartments',
-    stack: '(React, TypeScript, Redux, SCSS)',
-    link: 'https://cat-street.github.io/creative-apartments/',
-    repo: 'https://github.com/cat-street/creative-apartments',
-    img: imageApartments,
-    imgHi: imageApartmentsHi,
   },
   {
     name: 'Memory Game',
